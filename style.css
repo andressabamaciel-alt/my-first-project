@@ -1,0 +1,65 @@
+/* modelo do KNEIP/
+
+/* Estilos Gerais do Corpo */
+body {
+ font-family: "Arial", sans-serif; /* Fonte limpa e profissional */
+ line-height: 1.6; /* Melhorar a legibilidade */
+ margin: 0;
+ padding: 0;
+ background-color: #f4f7f6; /*Fundo suave para um visual limpo */
+ color: #333; /* Cor de texto padrão */
+}
+/* Estilos do Cabeçalho */
+header {
+ background-color: #2c3e50; /* Azul escuro para um toque profissional */
+ color: #ffffff;
+ padding: 1.5em 0;
+ text-align: center;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil*/
+}
+header h1 {
+ margin: 0;
+ font-size: 2.5em;
+}
+img{
+
+ width: 150px;
+ height: 150px;
+ border-radius: 50%; /* Faz a imagem ficar redonda */
+ border: 3px solid #007bff; /* Borda azul */
+ display: block; /* Para poder centralizar */
+ margin: 20px auto; /* Centraliza a imagem e adiciona margem */
+}
+/* Estilos de Parágrafos */
+p {
+ 
+ margin-bottom: 1em;
+ font-size: 1.1em;
+ color: #555;
+}
+/* Estilos de Listas Não Ordenadas (ul) */
+ul {
+ list-style-type: square; /* Marcadores quadrados */
+ margin-left: 25px;
+ margin-bottom: 1em;
+}
+
+a {
+ color: #3498db; /* Cor azul para links */
+ text-decoration: none; /* Remove sublinhado padrão */
+ transition: color 0.3s ease; /* Transição suave na cor */
+}
+a:hover {
+ color: #2980b9; /* Cor mais escura ao passar o mouse */
+ text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+/* Estilos do Rodapé */
+footer {
+ background-color: #2c3e50;
+ color: #ffffff;
+ text-align: center;
+ padding: 1.5em 0;
+ margin-top: 40px;
+ font-size: 0.9em;
+ box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}

@@ -1,0 +1,101 @@
+/* Exemplo de uso de margin, padding e border */
+.minha-caixa {
+ background-color: lightgray;
+ border: 1px solid gray;
+ padding: 20px; /* Espaço interno de 20px em todos os lados */
+ margin-bottom: 15px; /* Espaço de 15px abaixo da caixa */
+ width: 300px; /* Largura da caixa */
+ height: 100px; /* Altura da caixa */
+}
+/* Exemplo de display */
+.bloco {
+ display: block; /* Comporta-se como um bloco */
+ background-color: lightcoral;
+ padding: 10px;
+ margin: 5px;
+}
+.item-inline{
+ display: inline; /* Comporta-se como texto, não aceita width/height */
+ background-color: lightgreen;
+ padding: 5px;
+ margin: 2px;
+ 
+}
+ul{
+    list-style-type: none;
+}
+.item-inline-block {
+ display: inline-block; /* Fica lado a lado, mas aceita width/height */
+ background-color: lightblue;
+ padding: 10px;
+ margin: 5px;
+ width: 150px;
+}
+nav ul {
+ display: flex; /* Transforma a lista em um container flex */
+ list-style-type: none; /* Remove os marcadores padrão */
+ padding: 0;
+ margin: 0;
+ justify-content: center; /* Centraliza os itens horizontalmente */
+}
+nav li {
+ margin: 0 15px; /* Espaço entre os itens do menu */
+}
+nav a {
+ text-decoration: none;
+ color: white;
+ padding: 10px 15px;
+ background-color: #555;
+ border-radius: 5px;
+}
+nav a:hover {
+ background-color: #007bff;
+}
+section {
+ background-color: white;
+ padding: 30px; /* Mais espaço interno */
+ margin: 20px auto; /* Centraliza a seção e adiciona margem
+vertical */
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra mais
+visível */
+ max-width: 800px; /* Limita a largura máxima da seção */
+}
+HEADER{
+    text-align:center;
+ color: white;
+ margin: 10px 0 0 0;/* Margem apenas superior para separar*/
+
+}
+h2{
+    margin-bottom: 15px
+}
+nav ul {
+ display: flex; /* Transforma a lista em um container flex
+*/
+ list-style-type: none; /* Remove os marcadores da lista */
+ padding: 0;
+ margin: 50px 0 0 0; /* Margem apenas superior para separar
+do h1 */
+ justify-content: center; /* Centraliza os itens
+horizontalmente */
+ flex-wrap: wrap; /* Permite que os itens quebrem linha se
+não houver espaço */
+}
+nav li {
+ margin: 0 15px; /* Espaço horizontal entre os itens do MENU */
+}
+
+nav a {
+ color: white;
+ text-decoration: none;
+ padding: 8px 15px;
+ border-radius: 5px;
+ transition: background-color 0.3s ease; /* Transição suave
+para o hover */
+}
+nav a:hover {
+ background-color: #007bff; /* Muda a cor de fundo ao
+passar o mouse */
+}
+
